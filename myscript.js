@@ -6,7 +6,7 @@ var restart = document.querySelector('#b');
 var squares = document.querySelectorAll('td');
 
 
-//clear all the square
+//clear all the square, Reset squares
 function clearBoard(){
     for(var i = 0; i < squares.length; i++ ){
         squares[i].textContent = '';
